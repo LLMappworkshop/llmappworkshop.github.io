@@ -1,2 +1,2 @@
-# A-Mobile
-International Workshop on Advances in Mobile App Analysis (A-Mobile)
+# LLMapp 2025
+The 1st International Workshop on LLM App Store Analysis
