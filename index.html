@@ -292,21 +292,31 @@
                 <li><b>Research Papers (8 pages including references):</b> Technical research, experience reports, empirical studies, etc.</li>
             </ul>
 		
-            <h4>Requirements</h4>
+		<h4>Requirements</h4>
 		<ul>
-		    <li><strong>Format:</strong> Submissions must use the <a href="https://www.acm.org/publications/proceedings-template" target="_blank">ACM Primary Article Template</a> (2-column format).</li>
-		    <li><strong>Language & File Type:</strong> All submissions must be in English and in PDF format.</li>
-		    <li><strong>Page Limits:</strong> Adhere to the page limits specified in the call for papers.</li>
+		    <li><strong>Format:</strong> 
+		        <ul>
+		            <li>Submissions must use the <a href="https://www.acm.org/publications/proceedings-template" target="_blank">ACM Primary Article Template</a> (2-column format).</li>
+		            <li>For LaTeX, use <code>sample-sigconf.tex</code> and include:
+		                <ul>
+		                    <li><code>\documentclass[sigconf,screen,review,anonymous]{acmart}</code></li>
+		                    <li><code>\acmBooktitle{Companion Proceedings of the 33rd ACM Symposium on the Foundations of Software Engineering (FSE '25), June 23--27, 2025, Trondheim, Norway}</code></li>
+		                </ul>
+		            </li>
+		            <li>For Word, use the <strong>Interim Template</strong> (not the New Workflow).</li>
+		        </ul>
+		    </li>
+		    <li><strong>Language & File Type:</strong> Submissions must be in English and in PDF format.</li>
+		    <li><strong>Page Limits:</strong> Ensure the paper adheres to the page limits specified in the call for papers.</li>
 		    <li><strong>Double-Anonymous Review:</strong>
 		        <ul>
-		            <li>Authors must not reveal their identities in the manuscript.</li>
-		            <li>For LaTeX, use: <code>\documentclass[sigconf,screen,review,anonymous]{acmart}</code>.</li>
-		            <li>Include: <code>\acmBooktitle{Companion Proceedings of the 33rd ACM Symposium on the Foundations of Software Engineering (FSE '25), June 23--27, 2025, Trondheim, Norway}</code>.</li>
+		            <li>Authors must not reveal their identities in the manuscript (e.g., avoid names, affiliations, or acknowledgments).</li>
+		            <li>For more details, refer to the <a href="https://conf.researchr.org/track/fse-2025/fse-2025-how-to-submit" target="_blank">FSE 2025 guidelines</a>.</li>
 		        </ul>
 		    </li>
 		    <li><strong>Originality:</strong> Submissions must be original and not under review elsewhere.</li>
 		    <li><strong>Submission System:</strong> Submit via <a href="https://llmapp25.hotcrp.com/" target="_blank">HotCRP</a> by <strong>February 25, 2025 (AoE)</strong>.</li>
-		    <li><strong>Publication:</strong> Accepted papers will be published in the FSE 2025 companion proceedings. The official publication date is when ACM makes the proceedings available.</li>
+		    <li><strong>Publication:</strong> Accepted papers will be published in the FSE 2025 companion proceedings. The official publication date is when ACM makes the proceedings available (up to two weeks before the conference).</li>
 		</ul>
 
             <h4>Review Process</h4>
