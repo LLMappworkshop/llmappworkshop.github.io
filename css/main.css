@@ -21,6 +21,23 @@ h4 {
     margin-bottom: 10px;
 }
 
+.paper {
+    margin-bottom: 15px;
+    line-height: 1.6;
+}
+
+.paper-title {
+    font-weight: bold;
+    font-size: 1.1em;
+    color: #0056b3;
+}
+
+.authors {
+    font-style: italic;
+    color: #555;
+    margin-left: 15px;
+}
+
 .jumbotron {
     background-color: #11999e; /* #a71b40; #f4511e; */
     color: #fff;
